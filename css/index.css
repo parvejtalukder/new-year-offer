@@ -1,0 +1,90 @@
+/*fonts*/
+.merriweather-mb-font {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100; 
+}
+
+.inter-sb-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; }
+
+/* All Sec. Style */
+body {
+    margin: 40px 140px 0px 140px;
+}
+/*Shared Section*/
+.text-center{
+    text-align: center;
+}
+/* Main Banner Section */
+.main-banner {
+    background-image: linear-gradient(rgba(7, 2, 17, 0.5), rgba(7, 2, 17, 0.5)),
+        url('../images/Banner\ Image.png');
+    background-size: 1320px 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    box-shadow: inset horizontal-offset vertical-offset blur-radius spread-radius #070211;   
+}
+
+/* Main Text Styling */
+.text-container{
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+#main-text{
+    font-size: 32px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 190px 0 0 0;
+}
+#main-title{
+    color: white;
+    font-size: 72px;
+    font-weight: bolder;
+    width: 632px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+/*Second Banner*/
+.second-banner{
+    margin: 0 auto;
+    padding: 120px 258px 120px 258px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.second-header{
+    margin: 0px 0px 48px 0px;
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+}
+.second-text-container{
+    margin: 0px;
+    padding: 0px;
+}
+.second-text-one {
+    color: red;
+    font-size: 24px;
+    font-weight:400;
+    line-height: 0;
+}
+.second-text-two {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0;
+}
+.second-banner-img {
+    padding-top: 48px;
+}
